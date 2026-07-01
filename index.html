@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marassi Estudio Integral - Enlaces</title>
+    <style>
+        :root {
+            --bg-color: #0b0b0b;
+            --card-bg: #141414;
+            --primary-gold: #f1b80a;
+            --text-white: #ffffff;
+            --border-color: #262626;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-white);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            color: var(--text-white);
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 30px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-white);
+            text-decoration: none;
+            padding: 18px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .link-card:hover {
+            border-color: var(--primary-gold);
+            color: var(--primary-gold);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>MARASSI</h1>
+        <div class="subtitle">Estudio Integral</div>
+
+        <div class="links-container">
+            <a href="https://wa.me/5493794728517" class="link-card" target="_blank">
+                ⚖️ Área Legal e Inmobiliaria - Lucas Marassi
+            </a>
+            
+            <a href="https://wa.me/5493794028258" class="link-card" target="_blank">
+                🧠 Área de Psicología - Lic. María Marassi
+            </a>
+            
+            <a href="https://maps.app.goo.gl/FRcwmoDsVu8FJZYB7?g_st=ic" class="link-card" target="_blank">
+                📍 Junín 1154, Piso 10, Oficina A1
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
